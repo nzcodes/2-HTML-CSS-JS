@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Google Sans";
+  src: url("GoogleSans-Regular_0.ttf") format("woff");
+}
+body {
+  background-color: #222;
+  color: #ddd;
+  font-family: "Google Sans";
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#msgbtn {
+  border-radius: 1rem;
+  font-family: "Google Sans";
+  background-color: #333;
+  border: none;
+  color: #ddd;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  margin-bottom: 1.2rem;
+}
+#message {
+  margin-bottom: 1%;
+  font-size: 1.3rem;
+}
+img {
+  margin-top: 1.2rem;
+  border-radius: 1rem;
+  display: inline-block;
+}
+#reload {
+  background-color: #333;
+  border: none;
+  border-radius: 1rem;
+  position: fixed;
+  font-size: 1.2rem;
+  padding: 1rem;
+  top: 65%; /* Set the distance from the top as 50% */
+  right: 35%; /* Set the distance from the right as 5% */
+  transform: translateY(-50%); /* Center the element vertically */
+  cursor: pointer;
+}
+@media screen and (max-width: 1439px) {
+  #reload {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+  }
+}
+
