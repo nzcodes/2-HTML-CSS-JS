@@ -1,3 +1,3 @@
-## HTML CSS JS
+## Building Interactive Websites
 
 ![pic](projects2.png)
